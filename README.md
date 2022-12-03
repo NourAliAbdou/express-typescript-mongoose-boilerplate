@@ -3,7 +3,7 @@ simple starter for newbies.
 
 My main goal with this project is a simple and easy starter for new learners. I like you to be focused on the correct learning path and not spending hours in choosing the right project structure.
 
-> Full Explanation will be available soon. 
+> Full Explanation available on Dev Community Post: [here](https://dev.to/nour_abdou/express-typescript-mongoose-boilerplate-2omp)
 
 ## Features
 - Beautiful Code as simple as possible.
