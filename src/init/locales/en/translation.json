@@ -1,0 +1,17 @@
+{
+  "responseMessages": {
+    "successMessages": {
+      "registeredsuccessfully": "{{name}} registered successfully",
+      "profile updated successfuly": "Profile updated successfuly"
+    },
+    "errorMessages": {
+      "User already exists": "User already exists"
+    }
+  },
+  "home": {
+    "title": "Book shop",
+    "total": "There are {{counter}} books in the list",
+    "buttonText": "Refresh button",
+    "buttonHTML": "<button onClick='window.location.reload();'>$t(buttonText)</button>"
+  }
+}

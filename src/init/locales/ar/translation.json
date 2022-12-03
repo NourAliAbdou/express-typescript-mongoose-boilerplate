@@ -1,0 +1,17 @@
+{
+  "responseMessages": {
+    "successMessages": {
+      "registeredsuccessfully": "تم تسجيل {{name}} بنجاح",
+      "profile updated successfuly": "تم تحديث المعل،مات بنجاح."
+    },
+    "errorMessages": {
+      "User already exists": "المستخدم موجود بالفعل."
+    }
+  },
+  "home": {
+    "title": "متجر",
+    "total": "يوجد لدينا {{counter}} كتب في القائمة",
+    "buttonText": "إعادة التحميل",
+    "buttonHTML": "<button onClick='window.location.reload();'>$t(buttonText)</button>"
+  }
+}
