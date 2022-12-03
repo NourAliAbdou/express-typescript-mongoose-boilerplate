@@ -6,7 +6,7 @@ const bcrypt = require('bcryptjs');
  
 const UserLogin = (req: Request | any, res: Response) => {
   return User.findOne({
-    email: req.body.email,
+    email: req.body.mobile,
   }).then(function (user: any, err: any) {
     if (err) throw err;
 
@@ -24,7 +24,7 @@ const UserLogin = (req: Request | any, res: Response) => {
         if (!compRes) {
           res.status(403).json({
             success: false,
-            message: 'Wrong Password!',
+            message: 'Ops! wrong Password!',
           });
         } else {
           const payload = {

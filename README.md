@@ -26,3 +26,22 @@ Run code quality analysis using `npm run lint` or `npm run lint:fix` to fix erro
 
 
 
+## Project Structure
+
+```
+src\
+    |--mvc  
+        |--models\              # Mongoose models (data layer)
+        |--routes\              # Views routes
+        |--controllers\         # Route controllers (controller layer)
+        |--middlewares\         # Custom express middlewares
+    |--helpers\             # Utility functions
+    |--app.js               # Express app
+    |--init\                # Init Express app
+        |--locales\             # translation maps
+        |--db.ts                # Init DB Connection
+        |--localize.ts          # Init localization
+        |--routes.ts            # Init Routes
+        |--thApp.ts             # Express app
+|--index.ts             # App entry point
+```

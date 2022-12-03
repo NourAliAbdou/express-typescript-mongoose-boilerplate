@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "main": "index.ts",
   "scripts": {
-    "test": "yarn test",
     "start": "npx nodemon",
     "dev": "npx nodemon --exec ts-node index.ts",
     "lint": "eslint --ignore-path .gitignore --ext .ts src/",
